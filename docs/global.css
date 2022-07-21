@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+#map {
+  height: 100%;
+}
+
+body,
+html,
+#map {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  margin: 0 -15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: Lato, sans-serif;
+  min-height: 100%;
+  background: #ebebeb;
+  padding: 0 15px;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.auto-search-wrapper {
+  margin: 10px auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tabs-example {
+  margin-top: -45px !important;
+  position: absolute;
+}
+
+[role="tab"][aria-selected="true"] {
+  color: #0084ff !important;
+  text-decoration: underline;
+}
+
+[role="tab"] {
+  background: #fff !important;
+  color: gray !important;
+}
+
+.customPopup .leaflet-popup-content-wrapper,
+.customPopup .leaflet-popup-tip {
+  background: #000;
+  color: #fff;
+}
+
+.customPopup a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.customPopup a:hover {
+  text-decoration: underline;
+}
